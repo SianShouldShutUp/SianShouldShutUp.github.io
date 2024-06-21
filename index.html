@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Unicons-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!--Favicon-->
+    <link rel="icon" href="/PersonalProjects/PortfolioWebsite/Images/Sian_head_pink.jpg" type="image/x-icon"/>
+
+    <script defer src="script.js"></script>
+    
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <div class="container">
+        <!--Header-->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Sian</p>
+                <span>.</span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <!--Space for an extra button-->
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+        <!--Main-->
+    <main class="wrapper">
+
+        <!--Featured Box-->
+
+        <section class="featured-box" id="home">
+            <div class="featured-text">
+                <!--<div class="featured-text-card">
+                    <span>Sian Louise Hazelton</span>
+                </div>-->
+                <div class="featured-name">
+                    <p>I'm <span class="typedText">Sian Louise Hazelton</span></p>
+                </div>
+                <div class="featured-text-info">
+                    <p>An aspiring Software Developer with a focus on Game Development and a love for all things crafty and cute.
+                    </p>
+                </div>
+                <div class="featured-text-btn">
+                    <div class="btn">
+                        Download CV
+                        <a href="/PersonalProjects/PortfolioWebsite/Images/2024CV - Sian.pdf"></a>
+                        <i class="uil uil-file-heart"></i>
+                    </div>
+                </div>
+                <div class="social_icons">
+                    <div class="icon">
+                        <a href="https://www.instagram.com/icablossom_stitch/"></a>
+                        <i class="uil uil-instagram"></i>
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.linkedin.com/in/sian-hazelton-a679931a4/"></a>
+                        <i class="uil uil-linkedin-alt"></i>
+                    </div>
+                    <div class="icon">
+                        <a href="https://github.com/SianShouldShutUp"></a>
+                        <i class="uil uil-github-alt"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-image">
+                <div class="image">
+                    <img src="/PersonalProjects/PortfolioWebsite/Images/Sian_head_pink.jpg" alt="avatar">
+                </div>
+            </div>
+            <div class="scroll-icon-box">
+                <a href="#about" class="scroll-btn">
+                    <i class="uil uil-mouse-alt"></i>
+                    <p>Scroll Down</p>
+                </a>
+            </div>
+        </section>
+
+        <!--About Box-->
+
+        <section class="section" id="about">
+            <div class="top-header">
+                <h1>About Me</h1>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="about-info">
+                        <h3>My Introduction</h3>
+                        <p>
+                            Hi! I'm <b>Sian Louise Hazelton</b>, and I'm an aspiring developer based in London.<br>
+                            <br>
+                            My background is in English - I have an English Literature and Creative Writing BA + English Literature MA.
+                            I also worked as an Assistant Language teacher in Japan.<br>
+                            I am a creative person and have many different interests, including sewing, poetry and video games.<br>
+                            <br>
+                            After returning from teaching abroad I decided to pursue coding, as I was always interested in it but never took the plunge.
+                            This led me to partaking in a <b>3-month Software Development Bootcamp</b> to improve my skills, and aim for a new career that combines my creative and technical skills!
+                            <br>
+                        </p>
+                        <div class="about-btn">
+                            <div class="btn">
+                                Download CV
+                                <a href="/PersonalProjects/PortfolioWebsite/Images/2024CV - Sian.pdf"></a>
+                                <i class="uil uil-import"></i>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Development Skills</h3>
+                       </div>
+                       <div class="skills-list">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Javascript</span>
+                            <span>Python</span>
+                            <span>MySQL</span>
+                       </div>
+                    </div>
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Other Skills</h3>
+                       </div>
+                       <div class="skills-list">
+                            <span>Procreate</span>
+                            <span>Pixaki</span>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Project Box-->
+        <section class="section" id="projects">
+            <div class="top-header">
+                <h1>Projects</h1>
+            </div>
+            <div class="project-container">
+              <div class="project-box">
+                  <iframe class="project-iframe" src='https://replit.com/@sianlhazelton/FilmFix-Project?embed=true' width="100%" frameborder="0"></iframe>
+                  <br>
+                  <h3>FilmFlix App</h3>
+                  <p>Python, MySQL</p>
+                  <br>
+                  <p>Bootcamp project which required us to develop a python application that allows users to add, update or delete records in the filmflix.db database (CRUD).</p>
+              </div>
+              <div class="project-box">
+                  <div class="project-img">
+                    <img class="p-image" src="/PersonalProjects/PortfolioWebsite/Images/Text_Adventure.JPG">
+                  </div>
+                  <h3>In Progress: Text Based Adventure</h3>
+                  <p>HTML, Javascript, CSS</p>
+                  <br>
+                  <p>In order to get my first experience with game development I decided to work on an old-fashioned text based adventure.</p>
+              </div>
+              <div class="project-box">
+                <div class="project-img">
+                    <img class="p-image" src="/PersonalProjects/PortfolioWebsite/Images/Videogame Voiceline Quiz.JPG">
+                  </div>
+                  <h3>In Progress: Video Game Voiceline Quiz</h3>
+                  <p>HTML, Javascript, CSS</p>
+                  <br>
+                  <p>Quiz website inspired by popular websites such as 'Gamedle', 'Guess The Game', 'Guess The Audio' and 'Heardle'.</p>
+              </div>
+            </div>
+         </section>
+
+        <!--Contact Box-->
+        
+        <section class="section" id="contact">
+            <div class="top-header">
+                <h1>Get in touch</h1>
+                <span>Say Hello!</span>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="contact-info">
+                        <h2>Find Me <i class="uil uil-arrow-circle-down"></i> </h2>
+                        <p><i class="uil uil-envelope-heart"></i> Email: sianlhazelton@yahoo.co.uk </p>
+                    </div>
+                </div>
+                    <div class="col">
+                           <img class="letter" src="/PersonalProjects/PortfolioWebsite/Images/letter.gif" width="400px" height="400px">
+                    </div>
+                <!-- <div class="col">
+                    <div class="form-control">
+                        <div class="form-inputs">
+                            <input type="text" class="input-field" placeholder="Name">
+                            <input type="text" class="input-field" placeholder="Email">
+                        </div>
+                        <div class="text-area">
+                            <textarea placeholder="Message"></textarea>
+                        </div>
+                        <div class="form-button">
+                            <button class="btn">Send <i class="uil uil-message"></i></button>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+
+
+    </main>
+        <!--Footer-->
+    <footer>
+        <div class="top-footer">
+            <p>Sian Louise Hazelton</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <div class="icon">
+                <a href="https://www.instagram.com/icablossom_stitch/"></a>
+                <i class="uil uil-instagram"></i>
+            </div>
+            <div class="icon">
+                <a href="https://www.linkedin.com/in/sian-hazelton-a679931a4/"></a>
+                <i class="uil uil-linkedin-alt"></i>
+            </div>
+            <div class="icon">
+                <a href="https://github.com/SianShouldShutUp"></a>
+                <i class="uil uil-github-alt"></i>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Sian Louise Hazelton</a></p>
+        </div>
+    </footer>
+
+    <!--TypingJS-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!--Scroll Reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+</body>
+</html>
+
